@@ -20,7 +20,7 @@ a {
     text-decoration: none;
 }
 
-/* Cabeçalho */
+
 header {
     position: fixed;
     top: 0;
@@ -72,7 +72,7 @@ header {
     color: var(--cor-rosa);
 }
 
-/* Rodapé */
+
 .footer {
     padding: 50px 50px 20px;
     background-color: var(--cor-roxa);
@@ -120,7 +120,7 @@ header {
     text-align: center;
 }
 
-/* Responsividade (Layout) */
+
 @media (max-width: 768px) {
     html {
         scroll-padding-top: 170px;

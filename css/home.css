@@ -1,6 +1,6 @@
 @import url(layout.css);
 
-/* Hero */
+
 .hero {
     display: flex;
     align-items: center;
@@ -118,7 +118,7 @@
     transform: rotate(-12deg);
 }
 
-/* História */
+
 .historia {
     padding: 100px 50px;
     background-color: var(--cor-branca);
@@ -186,7 +186,7 @@
     background-color: var(--cor-amarela);
 }
 
-/* Como Chegar */
+
 .comoChegar {
     padding: 100px 50px;
     background-color: var(--cor-azul);
@@ -227,7 +227,7 @@
     line-height: 1.6;
 }
 
-/* Contato */
+
 .contato {
     padding: 100px 50px;
     background-color: var(--cor-rosa);
@@ -290,7 +290,7 @@
     cursor: pointer;
 }
 
-/* Responsividade (Home) */
+
 @media (max-width: 768px) {
     .hero {
         flex-direction: column;
