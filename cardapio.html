@@ -1,14 +1,14 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./css/cardapio.css">
-    <link rel="shortcut icon"
-          href="./assets/img/LogoImage.png"
-          type="image/png">
+    <link rel="shortcut icon" href="./assets/img/LogoImage.png" type="image/png">
     <title>Cardápio</title>
 </head>
+
 <body>
     <header id="header" class="header">
         <a href="./index.html#hero" class="logoContainer">
@@ -24,17 +24,46 @@
         </nav>
     </header>
 
-      <img src="./assets/img/Madoka.png" alt="Madoka">
+    <main id="content" class="content">
+        <section id="cardapioTopo" class="cardapioTopo">
+             <p class="cardapioTag">Feito hoje, sem contrato escondido</p>
+             <h1 class="cardapioTitulo">Cardápio</h1>
+             <p class="cardapioSubtitulo">Escolha a quantidade de cada item e veja quanto vai custar a sua visita á Padoka Mágica</p>
+          
+        </section>
 
-      <p>Em Croissant</p>
-    
+        <form id="formCardapio" class="cardapioConteudo" action="#">
+            <div class="listaCategorias">
+               <section id="cafeDaManha" class="categoria">
+                <div class="categoriaCabecalho">
+                    <h2>Café da Manhã</h2>
+                    <p>Servido todos os dias, das 6h ás 11h.</p>
+                </div>
+                <div class="listaItens">
+                    <div class="item">
+                        <h3 class="itemNome">Café da Manhã da Família Kaname</h3>
+                        <p class="itemDescricao">Pão na Chapa, ovos mexidos, frutas da horta do Seu Tomohisa, suco de laranja e café com leite</p>
+                        <p class="itemPreco">R$ 32,90</p>
+                    </div>
+                    <div class="item">
+                        <h3 class="itemNome">Pão na Chapa de Mitakihara </h3>
+                        <p class="itemDescricao">Pão Francês tostado na chapa com bastante manteiga.</p>
+                        <p class="itemPreco">R$ 7,50</p>
+                    </div>
+                </div>
+               </section>
+            </div>
+        </form>
+    </main>
 
 
-     <footer id="footer" class="footer">
+
+    <footer id="footer" class="footer">
         <div class="footerContainer">
             <div class="footerColuna">
                 <p class="footerLogo">Padoka Mágica</p>
-                <p>Padaria artesanal de Mitakihara desde 2011. Pão quentinho, chá da tarde e nenhum contrato escondido.</p>
+                <p>Padaria artesanal de Mitakihara desde 2011. Pão quentinho, chá da tarde e nenhum contrato escondido.
+                </p>
             </div>
             <div class="footerColuna">
                 <h3>Navegação</h3>
@@ -53,9 +82,11 @@
             </div>
         </div>
         <div class="copyright">
-            <p>&copy; 2026 Padoka Mágica. Todos os direitos reservados. Nenhuma Soul Gem foi escurecida no preparo dos nossos produtos.</p>
+            <p>&copy; 2026 Padoka Mágica. Todos os direitos reservados. Nenhuma Soul Gem foi escurecida no preparo dos
+                nossos produtos.</p>
         </div>
     </footer>
 
 </body>
+
 </html>
